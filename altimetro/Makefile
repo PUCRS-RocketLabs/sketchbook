@@ -6,7 +6,7 @@ BOARD_SUB = atmega2560
 #BOARD_SUB = atmega328
 ARDUINO_DIR = $(HOME)/local/latest
 ARDUINO_SKETCHBOOK =  $(HOME)/sketchbook
-ARDUINO_LIBS = SD SPI RTClib Wire #LiquidCrystal 
+ARDUINO_LIBS = SFE_BMP180 Wire
 #MONITOR_PORT = /dev/ttyUSB0
 MONITOR_PORT = /dev/ttyACM0
 CFLAGS_STD = -Wno-write-strings -std=gnu99
